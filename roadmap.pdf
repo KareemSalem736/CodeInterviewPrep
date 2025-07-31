@@ -1,0 +1,88 @@
+Welcome back — and well done finishing **Two Sum** on your own! That’s one of the best building blocks you can have. Since your goal is to **master a focused set of “bread & butter” DSA patterns** for interviews (especially targeting AWS and similar companies), here’s a clear plan:
+
+---
+
+## 🔑 Phase 1: Bread & Butter Patterns to Master First
+
+These cover 80%+ of what you’ll see in interviews.
+
+### 1. **Hashmap Patterns** (You're already started!)
+
+* ✅ Two Sum (done!)
+* 🔁 Practice: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/), [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+* Bonus: [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+### 2. **Two Pointers & Sorting**
+
+* Pattern: Sort, then use left/right pointers for scanning or comparisons
+* ⭐ Problems:
+
+  * [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+  * [Two Sum II (sorted)](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+  * [3Sum](https://leetcode.com/problems/3sum/)
+  * [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (geometry twist)
+
+### 3. **Sliding Window**
+
+* Dynamic window to maintain a condition or max/min
+* ⭐ Problems:
+
+  * [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+  * [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)
+  * [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+
+### 4. **Stack**
+
+* For problems involving:
+
+  * "Next greater element"
+  * Balanced brackets
+  * Monotonic stack patterns
+* ⭐ Problems:
+
+  * [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+  * [Min Stack](https://leetcode.com/problems/min-stack/)
+  * [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)
+
+---
+
+## 📚 Phase 2: Core Data Structures to Know Just Enough
+
+Once you’re confident with above patterns, add:
+
+### 5. **Binary Search**
+
+* Even outside arrays! Used in searching over "answer space"
+* ⭐ Problems:
+
+  * [Binary Search](https://leetcode.com/problems/binary-search/)
+  * [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
+  * [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
+### 6. **Basic Recursion / Backtracking**
+
+* Not full-blown dynamic programming yet
+* ⭐ Problems:
+
+  * [Subsets](https://leetcode.com/problems/subsets/)
+  * [Permutations](https://leetcode.com/problems/permutations/)
+  * [Combination Sum](https://leetcode.com/problems/combination-sum/)
+
+### 7. **Heap / Priority Queue**
+
+* For "top k" or scheduling problems
+* ⭐ Problems:
+
+  * [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+  * [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+
+---
+
+## 🧠 Mindset to Build Mastery
+
+* **Solve one problem per pattern fully on your own**, then repeat similar ones
+* Aim for **5–10 problems per pattern**, but start with **one at a time**
+* **Explain aloud** why the algorithm works — interviewers love reasoning
+* For now, **skip tree/graph/dp** unless you finish the above — those are great, but not your highest ROI just yet.
+
+---

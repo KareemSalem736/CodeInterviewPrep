@@ -2,7 +2,8 @@
 #  A phrase is a palindrome if, after converting all uppercase letters into lowercase and removing all non-alphanumeric characters, it reads the same forward and backward.
 # Return True if it is a palindrome, and False otherwise.
 
-
+def valid_palindrome(s):
+    return
 if __name__ == '__main__':
     print(valid_palindrome("A man, a plan, a canal: Panama"))  # True
     print(valid_palindrome("race a car"))                      # False

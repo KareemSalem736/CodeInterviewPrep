@@ -2,7 +2,17 @@
 # Given a string s, find the length of the longest substring without repeating characters.
 
 def longest_substring(s):
-    return
+    longest = 0
+    left = 0
+    set_s = set()
+
+    for right in range(len(s)):
+        while s[right] in set_s:
+            set_s.remove(s[left])
+            left += 1
+        longest = max(longest, (right - left) + 1)
+        set_s.add(s[right])
+    return longest
 
 if __name__ == '__main__':
     print(longest_substring("abcabcbb"))   # Expected: 3  → "abc"

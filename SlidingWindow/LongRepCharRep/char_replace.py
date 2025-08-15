@@ -3,15 +3,21 @@
 # Return the length of the longest such substring.
 
 def char_replace(s, k):
-    char_count = {}
     longest = 0
+    set_s = {}
+    left = 0
+    best = 0
 
-    for char in s:
-        char_count[char] += 1
-    for value in char_count:
-        longest = value if k <= value else value - k
+    for right, chr in enumerate(s):
+        set_s[chr] = set_s.get(chr, 0) + 1
+        longest = max(longest, set_s[chr])
 
-    return longest
+        while (right - left + 1) - longest > k:
+            set_s[s[left]] -= 1
+            left += 1
+        best = max(best, right - left + 1)
+
+    return best
 
 if __name__ == '__main__':
     print(char_replace("ABAB", 2))        # Expected: 4

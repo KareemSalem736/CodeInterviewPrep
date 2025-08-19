@@ -1,4 +1,20 @@
 # Given a list of daily temperatures, return a list that tells for each day how many days until a warmer temperature.
+class DailyTemperatures:
+    def __init__(self, nums) -> None:
+        self.nums = nums
+    
+    def daily_temperatures(self):
+        count = 0
+        days = []
+
+        while self.nums:
+            top = self.nums.pop()
+            while len(self.nums) > 1 and top > self.nums[-1]:
+                count += 1
+                self.nums.pop()
+            days.append(count)
+            count = 0
+        return days
 
 
 if __name__ == "__main__":
